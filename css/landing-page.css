@@ -138,6 +138,8 @@ footer.footer {
   overflow: auto; /* Включите прокрутку, если это необходимо */
   background-color: rgb(0,0,0); /* Цвет запасной вариант */
   background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+  width:500px;
+  height:auto;
 }
 
 /* Модальное содержание/коробка */
@@ -146,7 +148,7 @@ footer.footer {
   margin: 15% auto; /* 15% сверху и по центру */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  width: 50%; /* Может быть больше или меньше, в зависимости от размера экрана */
 }
 
 /* Кнопка закрытия */
@@ -194,11 +196,16 @@ footer.footer {
   animation-duration: 0.4s
 }
 
+
+
 /* Добавить анимация */
 @keyframes animatetop {
   from {top: -300px; opacity: 0}
   to {top: 0; opacity: 1}
+  
+ 
 }
+
 /* Начало стилей  */
 .Window {
  position: fixed;
